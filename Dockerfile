@@ -2,8 +2,9 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-COPY server.js .
+COPY package.json .
+RUN npm install
 
-RUN npm install express multer cors axios
+COPY server.js .
 
 CMD ["node","server.js"]

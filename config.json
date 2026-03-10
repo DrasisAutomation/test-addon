@@ -7,11 +7,16 @@
   "boot": "auto",
   "host_network": true,
   "ingress": false,
+  "homeassistant_api": true,
   "ports": {
     "1301/tcp": 1301
   },
   "map": [
     "config:rw"
   ],
-  "arch": ["amd64","armv7","aarch64"]
+  "arch": [
+    "amd64",
+    "armv7",
+    "aarch64"
+  ]
 }
