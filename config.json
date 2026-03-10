@@ -1,0 +1,17 @@
+{
+  "name": "Voice Upload Server",
+  "version": "1.0",
+  "slug": "voice_upload",
+  "description": "Upload microphone audio and play on Sonos",
+  "startup": "services",
+  "boot": "auto",
+  "host_network": true,
+  "ingress": false,
+  "ports": {
+    "1301/tcp": 1301
+  },
+  "map": [
+    "config:rw"
+  ],
+  "arch": ["amd64","armv7","aarch64"]
+}
