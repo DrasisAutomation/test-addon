@@ -1,6 +1,6 @@
 {
   "name": "Voice Upload Server",
-  "version": "1.0",
+  "version": "1.0.1",
   "slug": "voice_upload",
   "description": "Upload microphone audio and play on Sonos",
   "startup": "services",
